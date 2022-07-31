@@ -1,6 +1,6 @@
 FROM alpine
 #install NOde and NPM
-RUN apk add --update nodejs nodejs-npm
+RUN apk add --update nodejs npm
 RUN npm install -g http-server
 
 #Copy app to /src
